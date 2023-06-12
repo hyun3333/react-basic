@@ -2,21 +2,23 @@ import React from 'react'
 
 const ChangeEvent = () => {
 
-    const changeValue = () => {
-        console.log('value : s');
-    }
+  const changeValue = e => {
+    console.log(`value: ${e.target.value}`);
+  }
+
+
   return (
     <>
-        <input type='text' onChange={changeValue}/>
+        <input type='text' onChange={ changeValue } />
 
-        <select>
-            <optionn value='pizza'>피자</optionn>
-            <optionn value='chicken'>치킨</optionn>
-            <optionn value='pasta'>파스타</optionn>
-
+        <select onChange={ changeValue }>
+            <option value='pizza'>피자</option>
+            <option value='chicken'>치킨</option>
+            <option value='pasta'>파스타</option>
         </select>
+
     </>
-  )
+  );
 }
 
 export default ChangeEvent;

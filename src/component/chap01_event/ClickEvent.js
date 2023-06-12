@@ -25,4 +25,4 @@ const ClickEvent = () => {
   )
 }
 
-export default ClickEvent
+export default ClickEvent;

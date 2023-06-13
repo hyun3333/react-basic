@@ -21,3 +21,7 @@ $ npm start
 
 - http://localhost:3000 에서 프론트엔드 서버 실행.
 
+5. clone 하면 모듈이 없다 그래서 다운을 받아야 한다
+```
+$ npm install
+```

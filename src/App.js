@@ -1,8 +1,7 @@
 import './App.css';
 import SayHello from './SayHello';
-import ChangeEvent from './component/chap01_event/ChangeEvent';
-import SubmitEvent from './component/chap01_event/SubmitEvent';
-import FoodList from './component/chap02_props/FoodList';
+import Counter from './component/chap03_state/Counter';
+import NickName from './component/chap03_state/NickName';
 
 
 // 리액트에서는 하나의 컴포넌트가 여러개의 엘리먼트를 반환할 수 있습니다.
@@ -22,7 +21,7 @@ function App() {
   // {} 안에서 함수의 호출문이나 변수참조는 가능.
   return (
     <>      
-      <FoodList />
+      <Counter />
     </>
   );
 }
